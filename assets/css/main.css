@@ -1,0 +1,24 @@
+.logo a img{
+  width: 90px;
+}
+.logo{
+  margin-left: 40px;
+}
+.navbar-toggle{
+  float: left;important!
+}
+.hamburguer{
+  margin-left: 15px;
+  border: 0px solid transparent;
+}
+@media (min-width: 768px) {
+  .menu{
+    float: right;
+  }
+}
+.color-menu{
+  background-color: white;
+}
+.navbar-default{
+  margin-bottom: 0px;
+}
