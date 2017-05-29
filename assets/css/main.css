@@ -1,3 +1,9 @@
+.encima{
+  z-index: 20;
+}
+html{
+  overflow-x: hidden;
+}
 .logo a img{
   width: 90px;
 }
@@ -6,19 +12,213 @@
 }
 .navbar-toggle{
   float: left;important!
+
 }
 .hamburguer{
   margin-left: 15px;
   border: 0px solid transparent;
 }
-@media (min-width: 768px) {
+
+#informacion, #tarifa{
+  background-color: #f7b418;
+}
+@media (max-width: 768px) {
+  #hero{
+    position: relative;
+  }
+  #informacion{
+    width: 100%;
+    height: 700px;
+  }
+  .imagen-fondo img{
+    width: 100%;
+  }
+  .cuadro-flotante{
+    position: absolute;
+    right: 0;
+    background-color: #f7b418;
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 1367px) and (min-width: 769px){
   .menu{
     float: right;
   }
-}
-.color-menu{
-  background-color: white;
-}
-.navbar-default{
-  margin-bottom: 0px;
+  .cuadro-flotante{
+    position: absolute;
+    right: 0;
+    background-color: #f7b418;
+    margin-top: 80px;
+    width: 500px;
+    height: 350px;
+  }
+  #hero{
+    width: 100%;
+    height: 550px;
+    position: relative;
+  }
+  #informacion{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    z-index: 10;
+  }
+  .imagen-cel img{
+    width: 300px;
+    margin-top: 30px;
+    margin-left: 50px;
+  }
+  #img-logo{
+    display: inline-block;
+    width: 70px;
+    top: 130px;
+  }
+  .color-boton{
+    color: black;
+  }
+  .texto-flotante{
+    padding: 20px;
+    color: white;
+  }
+  .texto-celular{
+    color: white;
+  }
+  .texto-celular h3{
+    font-size: 30px;
+  }
+  .texto-celular p{
+   font-size: 18px;
+   line-height: 40px;
+  }
+  #conduce{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    background-color: blue;
+  }
+  .texto-sombra{
+    color: white;
+    position: absolute;
+    bottom: 270px;;
+    right: 0;
+  }
+  .color-amarillo{
+    background-color: #f7b418;
+  }
+  #tarifa{
+    color: white;
+    width: 100%;
+    height: 600px;
+    position: relative;
+    background-color: #f7b418;
+  }
+  .color-black{
+    color: black;
+  }
+  .imagen-fondo img{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+  }
+  .alinear-centro{
+    padding-top: 100px;
+  }
+  .contenido{
+    position: absolute;
+    border: 1px solid white;
+    width: 1000px;
+    height: 400px;
+    margin-top: 100px;
+  }
+
+  #conduce img{
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+  }
+  .cuadro-sombra{
+    width: 500px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-color: black;
+    opacity: 0.3;
+  }
+  .ruta-busqueda .row{
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+  .mapa{
+    width: 400px;
+    height: 400px;
+    border: 1px solid white;
+  }
+  .centrar-span{
+    margin-top: 10px;
+    color: white;
+    display: inline-block;
+  }
+  .input-ruta{
+    colorL:white;
+    column-rule-color: white;
+    color:white;
+    background-color: transparent;
+    border: 1px solid white;
+  }
+  .input-ruta::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: white;
+  }
+  .input-ruta:focus{
+    border: 1px solid white;
+    box-shadow: none;
+  }
+  footer{
+    color: white;
+    width: 100%;
+    height: 500px;
+    position: relative;
+    background-color: #2b2b2b;
+  }
+  .contenido-footer{
+    padding: 60px;
+  }
+  .display-relativo{
+    height: 100%;
+    position: relative;
+  }
+  .icons{
+    position: absolute;
+    bottom: 0px;
+  }
+  .texto-final{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .espaciado-top{
+    padding-top: 15px;
+  }
+  .list-group li{
+    margin-bottom: 12px;
+  }
+  .links{
+    margin-left: 2px;
+    margin-top: 6px;
+    width: 100%;
+    height: 300px;
+    border-top: 2px solid white;
+    border-bottom: 1px solid white;
+  }
+  .otras-marcas img{
+    padding: 10px;
+    width: 150px;
+  }
+  .otras-marcas{
+    position: absolute;
+    bottom: 0;
+  }
+
 }
